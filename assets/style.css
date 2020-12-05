@@ -1,11 +1,16 @@
 *{
     box-sizing: border-box;
 }
+
 body,html{
     margin: 0;
     padding: 0;
     scroll-behavior: smooth;
+     
     
+   }
+   body::-webkit-scrollbar {
+    display: none;
    }
 
   #Home,#reg{
@@ -125,29 +130,46 @@ background: #C4C4C4;
     font-size: 48px;
     line-height: 64px;
     padding-left:100px ;
-    padding-top: 50px;
+    padding-top: 20px;
 
 }
 .book-content{
     display:flex ;
     justify-content: center;
-    padding-top: 50px;
+    padding-top: 10px;
 }
 .content{
     
-    width: 300px;
-    height: 400px;
+    width: 350px;
+    height: 170px;
     background-color: white;
-    background: url(../citytaxi.jpg);
-      background-repeat: no-repeat;
-  background-size: cover;
-   background-position:center;
 }
+
 .first{
     position: relative;
     padding:20px;
     
 }
+.headding{
+  width: 200px;
+  height: 70px;
+  
+  color: #eaeaf0;
+  
+}
+
+
+.coln{
+  background: #241C1C;
+  width: 350px;
+  height: 300px;
+  border-left: solid 1px ;
+  border-right: solid 1px;
+  border-bottom: solid 1px;
+ 
+  border-color: #FBCD53 ;
+}
+
 
 .buttonbt{
     position: absolute;
@@ -158,11 +180,19 @@ background: #C4C4C4;
     width: 150px;
     height: 40px;
     cursor: pointer;
-    left:90px;
-    top:350px;
+    left:100px;
+    top:430px;
     border: 2px solid #FBCD53;
-   
-}/*-----------------------------------------------------------------*/
+    
+}
+
+.buttonbt:hover{
+background-color: #FBCD53;
+color:white;
+
+}
+
+/*-----------------------------------------------------------------*/
 #type{
   height: 100vh;
   width: 100%;
