@@ -162,6 +162,42 @@ background: #C4C4C4;
     top:350px;
     border: 2px solid #FBCD53;
    
+}/*-----------------------------------------------------------------*/
+#type{
+  height: 100vh;
+  width: 100%;
+}
+.options{
+  width: 100%;
+  height: 150px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.logo-bar{
+  display: flex;
+  justify-content: space-evenly;
+  position: relative;
+}
+.logo2{
+  margin-left:125px ;
+  
+filter: drop-shadow(0px 4px 4px rgba(255, 255, 255, 0.22));
+ 
+}
+.login h2{
+  font-family: Segoe UI;
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+line-height: 27px;
+position: absolute;
+width: 67px;
+height: 27px;
+left: 563px;
+top: 27px;
+color: #FFFFFF;
+ 
 }
 /*-----------------------------------------------------------------------*/
 .leftside,.rightside{
@@ -170,11 +206,13 @@ background: #C4C4C4;
 }
 .leftside{
      background: #131313;
+     
 }
 .rightside{
     background: #131313;
+    
 }
-.ct{
+.ct,.out,.rent{
     background:none;
    filter: blur(.5 px);
     color: #FBCD53;
@@ -186,36 +224,59 @@ background: #C4C4C4;
     transform: -50% -50%;
 
 }
-.out{
-     
-    
-    background:none;
-   filter: blur(.5 px);
-    color: #FBCD53;
-    border-radius: 25px;
-    width: 150px;
-    height: 40px;
-    cursor: pointer;
-    border: 2px solid #FBCD53;
-    transform: -50% -50%;
-    
 
+.logo-bar{
+  width: 100%;
+  height: 100px;
+   background: #131313;
+}
+.inputz{
+  width: 100%;
+  height: 200px;
+  align-items: center;
+  
+}
+.ibox{
+  width: 640px;
+  height: 50px;
+  background: rgba(196, 196, 196, 0.08);
+  margin-top:10px;
+  margin-left: 20px;
+  margin-right: 20px;
+  text-align: center;
+  
+  
+}
+.ibox input{
+    border: none;
+    padding: 7px;
+    margin-top: 5px;
+    outline: none;
+    color: rgba(255, 255, 255, 0.28);
+    width: 400px;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: bold;
+    width: 70%;
+    background-color: transparent;
+}
+.ibox label{
+  font-family: Segoe UI;
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+line-height: 32px;
+color: #FFFFFF;
+width: 120px;
 
 }
-.rent{
-    
-    background:none;
-   filter: blur(.5 px);
-    color: #FBCD53;
-    border-radius: 25px;
-    width: 150px;
-    height: 40px;
-    cursor: pointer;
-    border: 2px solid #FBCD53;
-    transform: -50% -50%;
-    
-
-
+.taxi-img{
+  width: 100%;
+  height: 550px;
+  background: url(../taxi.jpeg);
+   background-repeat: no-repeat;
+  background-size: cover;
+   background-position:center;
 }
 /*---------------------------------------------------------------------*/
 
