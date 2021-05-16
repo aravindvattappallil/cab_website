@@ -13,7 +13,7 @@ body,html{
     display: none;
    }
 
-  #Home,#reg{
+  #Home,#reg,#book,#about,#type{
       height: 100vh;
       width: 100%;
   }
@@ -35,7 +35,7 @@ p{
     flex-direction: row-reverse;
     justify-content: center;
 
-    padding-right:300px ;
+    padding-right:25% ;
     
 }
 .nav-bar h3 a{
@@ -137,6 +137,7 @@ background: #C4C4C4;
     display:flex ;
     justify-content: center;
     padding-top: 10px;
+  
 }
 .content{
     
@@ -147,8 +148,21 @@ background: #C4C4C4;
 
 .first{
     position: relative;
-    padding:20px;
+    margin:20px;
+
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: box-shadow, transform;
+    transition-property: box-shadow, transform;
     
+}
+.first:hover{
+  box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.5);
+  -webkit-transform: scale(1.03);
+  transform: scale(1.03);
 }
 .headding{
   width: 300px;
@@ -199,14 +213,16 @@ font-size: 15px;
     height: 40px;
     cursor: pointer;
     left:30%;
-    top:470px;
+    top:450px;
     border: 2px solid #FBCD53;
+    transition-duration: .5s;
     
 }
 
 .buttonbt:hover{
 background-color: #FBCD53;
 color:white;
+
 
 }
 
@@ -243,7 +259,7 @@ line-height: 27px;
 position: absolute;
 width: 67px;
 height: 27px;
-left: 563px;
+left: 85%;
 top: 27px;
 color: #FFFFFF;
  
@@ -274,7 +290,7 @@ color: #FFFFFF;
     cursor: pointer;
     border: 2px solid #FBCD53;
     transform: -50% -50%;
-    
+    transition-duration: .5s;
 
 }
 .rent:hover{
@@ -459,8 +475,11 @@ background: #C4C4C4;
   height: 250px;
   width: 550px;
   margin-left: 70px;
-  margin-top: 100px; 
+  margin-top: 150px; 
   
+}
+.maps{
+  margin-left: 9%;
 }
 
 .head1 h1 {
