@@ -1,0 +1,76 @@
+/*-------------------- 991px -------------------------------------*/
+@media screen and (max-width:991px){
+  #book{
+    display: none;
+  }
+
+  #section10{
+ 
+    top:80%;
+}
+
+    .first{
+      
+       max-width: 300px; 
+
+    }
+
+
+    .content{
+        max-width: 90%;
+        }
+
+    .coln{
+    max-width: 90%;
+    height: 95%;
+  }
+
+  .round-car{
+    width: 50px;
+    height: 50px;
+    
+    left: 220px;
+  }
+
+
+/*-----------------------------------------------------------*/
+
+
+.leftside{
+  width: 45vw;
+    
+     
+}
+.rightside{
+   
+     width: 55vw;
+    
+}
+.logo2{
+  margin-left:15% ;
+}
+.login h2{
+  left: 80%;
+}
+
+.ibox input{
+
+  font-size: 10px;
+ 
+}
+.ibox label{
+
+font-size: 15px;
+line-height: 350%;
+
+
+}
+
+
+
+
+
+
+
+
+}

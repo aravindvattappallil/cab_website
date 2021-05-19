@@ -6,11 +6,13 @@
     <title>Mumbai Cab</title>
     <link rel="stylesheet" href="./assets/style.css">
     <link rel="stylesheet" href="./assets/media.css">
+   
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
         integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
 </head>
 
 <body>
+    <div class="main_container">
     <!-------------------Home---------------------------------->
     <section id="Home">
         
@@ -22,9 +24,9 @@
     
    
        <div class="nav-bar">
-        <h3><a href="#type">TYPE</a></h3>
         <h3><a href="#about">ABOUT</a></h3>
-           <h3><a href="#book">BOOKING</a></h3>
+        <h3><a href="#type">TYPE</a></h3>
+         <h3><a href="#book">BOOKING</a></h3>
           <h3><a href="#Home">HOME</a></h3>
        </div>
     </div>
@@ -54,6 +56,8 @@
 </div>
 </section>
 <!--------------------Home end--------------------->
+
+<!--------------------Booking --------------------->
 <section id="book">
     <div class="book-container">
  <div class="book-heading">
@@ -62,9 +66,9 @@
     <div class="book-content">
     <div class="first">
         <div class="content">
-            <img class="map" src="./img/citytaxi.jpg" alt="" width="350px" height="170px">
+            <img class="map" src="./img/citytaxi.jpg" alt="" width="100%" height="100%">
         </div>
-        <div class="round-car"><img class="map" src="./img/round.png" alt="" width="60px" height="60px"></div>
+        <div class="round-car"><img class="map" src="./img/round.png" alt="" width="100%" height="100%"></div>
         <div class="coln">
             <div class="headding">
                 <h1>CITY TAXI</h1>
@@ -83,9 +87,9 @@
     </div>
     <div class="first">
         <div class="content ">
-            <img class="map" src="./img/outstation.jpg" alt="" width="350px" height="170px">
+            <img class="map" src="./img/outstation.jpg" alt="" width="100%" height="100%">
         </div>
-        <div class="round-car"><img class="map" src="./img/round.png" alt="" width="60px" height="60px"></div>
+        <div class="round-car"><img class="map" src="./img/round.png" alt="" width="100%" height="100%"></div>
         <div class="coln">
             <div class="headding">
                 <h1>OUTSTATION</h1>
@@ -107,9 +111,9 @@
     </div>
     <div class="first">
         <div class="content">
-            <img class="map" src="./img/rentals.jpg" alt="" width="350px" height="170px">
+            <img class="map" src="./img/rentals.jpg" alt="" width="100%" height="100%">
         </div>
-        <div class="round-car"><img class="map" src="./img/round.png" alt="" width="60px" height="60px"></div>
+        <div class="round-car"><img class="map" src="./img/round.png" alt="" width="100%" height="100%"></div>
         <div class="coln">
             <div class="headding">
                 <h1>RENTALS</h1>
@@ -133,7 +137,8 @@
 
 
 </section>
-<!---------------------------------------------------------------------->
+<!--------------------------Booking end-------------------------------------------->
+<!--------------------------Type -------------------------------------------------->
 <section id="type">
     <div class="row no-gutters">
         <div class="col no-gutters">
@@ -179,7 +184,8 @@
     </div>
 </section>
 
-<!---------------------------------------------------------------------->
+<!----------------------------Type end------------------------------------------>
+<!----------------------------About -------------------------------------------->
 <section id="about" class="main">
         <div class="maindiv">
             <div class="head1">
@@ -188,12 +194,20 @@
             <div class="head2">
                 <h3>Download the app for exclusive deals and ease of booking</h3>
             </div>
-            <div class="images">
-                <img class="imgs" src="./img/about.png" alt=""  />
-                <img class="maps" src="./img/map.png" alt="" width="550px" height="400px" />
+            <div class="download_map">
+                <div class="download">
+                    <div class="playstore"><img  src="./img/about.png" alt="" width="100%"height="100%"  /></div>
+                    <div class="appstore"></div>
+                    <div class="windows"></div>
+                </div>
+                <div class="maplink">
+                    <!--<img class="maps" src="./img/map.png" alt="" width="100%" height="100%">-->
+                </div>
+              <!---- <img class="imgs" src="./img/about.png" alt=""  />
+                />-->
             </div>
-            <div class="line"></div>
-            <div class="writings">
+       <div class="line"></div>
+    <div class="writings">
                 <h3>CALL-1800-0097</h3>
                 <h3><br></h3>
                 <h3>A dedicated 24x7 customer<br>support team always at your<br>service to help solve any problem</h3>
@@ -202,8 +216,9 @@
             <div>
 
 </section>
+<!----------------------------About  end-------------------------------------------->
 
-
+</div>
     
 </body>
 </html>

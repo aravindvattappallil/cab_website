@@ -149,6 +149,7 @@ background: #C4C4C4;
 .first{
     position: relative;
     margin:20px;
+    max-width: 350px;
 
     -webkit-transform: perspective(1px) translateZ(0);
     transform: perspective(1px) translateZ(0);
@@ -188,12 +189,12 @@ font-size: 15px;
   left: 280px;
 }
 .para{
-      width: 350px;
+      max-width: 350px;
     padding: 0 20px;
 }
 .coln{
   background: #241C1C;
-  width: 350px;
+  max-width:350px;
   height: 350px;
   border-left: solid 1px ;
   border-right: solid 1px;
@@ -320,6 +321,7 @@ color:white;
   
 }
 .ibox{
+  display: flex;
   width: 90%;
   height: 50px;
   background: rgba(196, 196, 196, 0.08);
@@ -340,6 +342,7 @@ color:white;
     font-family: Segoe UI;
     font-style: normal;
     font-weight: bold;
+    font-size: 15px;
     width: 70%;
     background-color: transparent;
 }
@@ -348,7 +351,7 @@ color:white;
 font-style: normal;
 font-weight: bold;
 font-size: 20px;
-line-height: 32px;
+line-height: 55px;
 color: #FFFFFF;
 width: 120px;
 
@@ -364,8 +367,8 @@ width: 120px;
 /*---------------------------------------------------------------------*/
 
 .demo a {
-  position: absolute;
-  bottom: 20px;
+  position: relative;
+  bottom: -10px;
   left: 50%;
   z-index: 2;
   display: inline-block;
@@ -386,7 +389,7 @@ width: 120px;
 #section10{
     position: absolute;
     margin-top:50px ;
-    top:670px;
+    top:620px;
 }
 
 #section10 a {
@@ -451,27 +454,33 @@ width: 120px;
   }
 }
 /*---------------------------------------------------------*/
+
 .maindiv{
   height: 100vh;
   background-color: #131313;
   font-family: sans-serif;
   position: relative;
   padding-top: 80px;
+  display: flex;
+  flex-direction: column;
 }
 
 .line {
- width: 1100px;
+ max-width: 1100px;
 height: 2px;
 margin-left: 7%;
 background: #C4C4C4;
+position: relative;
   
 
 }
-.images{
-  position: relative;
-}
+
+
+
+
 
 .imgs {
+  
   height: 250px;
   width: 550px;
   margin-left: 70px;
@@ -479,6 +488,7 @@ background: #C4C4C4;
   
 }
 .maps{
+  
   margin-left: 9%;
 }
 
@@ -488,9 +498,9 @@ background: #C4C4C4;
   font-size: 40px;
   font-family: segoe "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-weight: bold;
-  position: absolute;
+  position: relative;
   left: 50px;
- top:200px;
+ margin-top:60px;
 }
 .head2 h3{
   color: white;
@@ -498,9 +508,37 @@ background: #C4C4C4;
   font-family: segoe "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   margin-right: 50%;
   font-weight: bold;
-   position: absolute;
+   position: relative;
    left: 50px;
-top: 250px;
+margin-top: -10px;
+}
+
+.download_map{
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+ 
+}
+.download{
+ 
+  height: 250px;
+  width: 600px;
+  position: relative;
+  margin-left:50px ;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+}
+.playstore,.appstore,.windows{
+  width: 150px;
+  height: 60px;
+  background-color: red;
+}
+.maplink{
+  
+  position: relative;
+  margin-right: 35%;
 }
 .writings{
   position: relative;
