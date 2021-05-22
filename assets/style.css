@@ -488,8 +488,9 @@ position: relative;
   
 }
 .maps{
-  
-  margin-left: 9%;
+  margin-left: 70%;
+  width: 300px;
+  height: auto;
 }
 
 .head1 h1 {
@@ -531,6 +532,7 @@ margin-top: -10px;
 
 }
 .playstore,.appstore,.windows{
+  
   width: 150px;
   height: 60px;
   background-color: red;
@@ -538,7 +540,8 @@ margin-top: -10px;
 .maplink{
   
   position: relative;
-  margin-right: 35%;
+right: 35%;
+
 }
 .writings{
   position: relative;
